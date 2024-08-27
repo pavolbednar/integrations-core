@@ -44,10 +44,13 @@
         "metadata_path": "assets/service_checks.json"
       }
     },
+    "dashboards": {
+      "AWS Neuron Overview": "assets/dashboards/aws_neuron_overview.json"
+    },
     "monitors": {
-	"Execution latency": "assets/monitors/execution_latency.json",
-	"Execution errors":  "assets/monitors/execution_errors.json",
-	"Neuron Runtime vCPU usage":  "assets/monitors/neuron_runtime_vcpu.json"
+      "Execution latency": "assets/monitors/execution_latency.json",
+      "Execution errors": "assets/monitors/execution_errors.json",
+      "Neuron Runtime vCPU usage": "assets/monitors/neuron_runtime_vcpu.json"
     }
   },
   "author": {
